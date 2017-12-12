@@ -4,7 +4,8 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '欢迎来到,富强APP!',
+    text:'此APP主要是用了测试使用，如果觉得好，可以下载使用，谢谢你的关注，是我们最大的动力！',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -13,6 +14,16 @@ Page({
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  signin: function () {
+    wx.navigateTo({
+      url: '../user/user'
+    })
+  },
+  signup: function () {
+    wx.navigateTo({
+      url: '../user/signup'
     })
   },
   onLoad: function () {

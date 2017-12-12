@@ -1,0 +1,23 @@
+<!--pages/user/signup.wxml-->
+<view class="container">
+  <view class='sign-title'>
+    <text class='title'>用户注册</text>
+  </view>
+
+   <view class='form'>
+    <view class="section input-text">
+      <input  type="text" name="username" placeholder="请输入用户名……" value='' style='size:300px;'/>
+    </view>
+
+    <view class="section input-text">
+      <input  type="password" name="password" placeholder="请输入密码……" value='' style='size:300px;'/>
+    </view>
+
+    <button type="default" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 注册 
+    </button>
+
+    <text class="user-mottos">如果您已注册，请前往<text style='color:#000;'bindtap="signin" > 登录</text></text>
+        
+   </view>
+</view>

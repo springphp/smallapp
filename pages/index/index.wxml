@@ -10,4 +10,12 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="userinfo">
+    <text class="user-mottos" bindtap="signin" >---- 登录 ----</text>
+    <text class="user-mottos" bindtap="signup">---- 注册 ----</text>
+  </view>
+  <view class="userinfo">
+    <text class="user-text">{{text}}</text>
+  </view>
+
 </view>

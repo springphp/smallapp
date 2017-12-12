@@ -17,5 +17,21 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 100px;
+}
+.user-motto{
+  color: #333;
+  font-size: 14px;
+}
+.user-mottos{
+  color: #800;
+  font-size: 13px;
+  margin-top:10px;
+}
+.user-text{
+  margin-top:80px;
+  width:80%;
+  color: #ccc;
+  font-size: 10px;
+  text-indent: 2em;
 }
