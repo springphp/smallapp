@@ -6,15 +6,15 @@
 
    <view class='form'>
     <view class="section input-text">
-      <input  type="text" name="username" placeholder="请输入用户名……" value='' style='size:300px;'/>
+      <input  type="text" id="username" name="username" placeholder="请输入用户名……" value='' style='size:300px;'/>
     </view>
 
     <view class="section input-text">
-      <input  type="password" name="password" placeholder="请输入密码……" value='' style='size:300px;'/>
+      <input  type="password" id="password" name="password" placeholder="请输入密码……" value='' style='size:300px;'/>
     </view>
 
     <button type="default" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary"> 注册 
+        disabled="{{disabled}}" bindtap="register" form-type='submit'> 注册 
     </button>
 
     <text class="user-mottos" bindtap="signin" >如果您已注册，请前往<text style='color:#000;'> 登录</text></text>

@@ -5,19 +5,19 @@
   </view>
 
    <view class='form'>
-    <view class="section input-text">
-      <input  type="text" name="username" placeholder="请输入用户名……" value='' style='size:300px;'/>
-    </view>
+    <form bindsubmit="formSubmit">
+       <view class="section input-text">
+          <input  type="text" id="username" name="username" placeholder="请输入用户名……" value='' style='size:300px;'/>
+        </view>
 
-    <view class="section input-text">
-      <input  type="password" name="password" placeholder="请输入密码……" value='' style='size:300px;'/>
-    </view>
+        <view class="section input-text">
+          <input  type="password" id="password" name="password" placeholder="请输入密码……" value='' style='size:300px;'/>
+        </view>
 
-    <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary"> 登录 
-    </button>
-        
-    <text class="user-mottos"  bindtap="signup" >如果您未注册，请前往 <text style='color:#000;'> 注册</text></text>
-
-   </view>
+        <button type="primary" id="btn" form-type="submit" > 登录 
+        </button>
+        <text class="user-mottos"  bindtap="signup" >如果您未注册，请前往 <text style='color:#000;'> 注册</text></text>
+    </form>
+  </view>
+   
 </view>
