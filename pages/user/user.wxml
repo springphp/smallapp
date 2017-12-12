@@ -17,7 +17,7 @@
         disabled="{{disabled}}" bindtap="primary"> 登录 
     </button>
         
-    <text class="user-mottos" >如果您未注册，请前往 <text style='color:#000;' bindtap="signin" > 注册</text></text>
+    <text class="user-mottos"  bindtap="signup" >如果您未注册，请前往 <text style='color:#000;'> 注册</text></text>
 
    </view>
 </view>
